@@ -1,0 +1,6 @@
+# Production dependencies
+pyspark==3.5.8
+# Spark Connect client (remote session)
+grpcio>=1.60.0
+grpcio-status>=1.60.0
+protobuf>=4.25.0
