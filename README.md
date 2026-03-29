@@ -1,6 +1,6 @@
-# Project Name
+# M2
 
-A Python project template.
+本项目用于本地快速测试和远程操作服务器上的项目。
 
 ## Installation
 
