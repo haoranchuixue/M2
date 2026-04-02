@@ -1,0 +1,21 @@
+{
+  "token": "{\"c\":1774861651474,\"e\":253402300799000,\"v\":\"\\\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsIm9pZCI6MSwiZXhwIjoxNzc0OTE5MjUxfQ.wVaY_EGRT9xibvRbAxaUWhH1MoSCRRsXKe-qUC1Pdcc\\\"\"}",
+  "exp": "{\"c\":1774861651475,\"e\":253402300799000,\"v\":\"0\"}",
+  "storage": {
+    "open-backend": "{\"c\":1774861651884,\"e\":253402300799000,\"v\":\"\\\"0\\\"\"}",
+    "screen-weight": "{\"c\":1774861651709,\"e\":253402300799000,\"v\":\"{}\"}",
+    "user.exp": "{\"c\":1774861651475,\"e\":253402300799000,\"v\":\"0\"}",
+    "app.desktop": "{\"c\":1774861647377,\"e\":253402300799000,\"v\":\"false\"}",
+    "x-de-execute-version": "{\"c\":1774861651473,\"e\":253402300799000,\"v\":\"\\\"2.10.20\\\"\"}",
+    "user.uid": "{\"c\":1774861651474,\"e\":253402300799000,\"v\":\"\\\"1\\\"\"}",
+    "xpack-model-distributed": "{\"c\":1774861648514,\"e\":253402300799000,\"v\":\"\\\"null\\\"\"}",
+    "panel-weight": "{\"c\":1774861651709,\"e\":253402300799000,\"v\":\"{\\\"985192741891870720\\\":9,\\\"1234909007379042304\\\":9}\"}",
+    "user.oid": "{\"c\":1774861651474,\"e\":253402300799000,\"v\":\"\\\"1\\\"\"}",
+    "user.name": "{\"c\":1774861651474,\"e\":253402300799000,\"v\":\"\\\"\u7cfb\u7edf\u7ba1\u7406\u5458\\\"\"}",
+    "user.language": "{\"c\":1774861651475,\"e\":253402300799000,\"v\":\"\\\"zh-CN\\\"\"}",
+    "TreeSort-backend": "{\"c\":1774861651884,\"e\":253402300799000,\"v\":\"\\\"1\\\"\"}",
+    "user.time": "{\"c\":1774861651475,\"e\":253402300799000,\"v\":\"1774861651121\"}",
+    "DataEaseKey": "{\"c\":1774861648449,\"e\":253402300799000,\"v\":\"\\\"141P99GRdZKzvt0OpCbmJ2ro0eVUzyJl/3U+7nMdeEeeuJ/z6mlf7L2ul3sjxueEMBKmCLhkydfSga8OA75HGIsNE4migOBM7ulKZ0lcvWEXlhllsLZkb3EN1MCZd8nvnHumwHzdu6T2UTj1+bQZ9fd1/RPbeN3wwcqci1kqDFLnS9UyuUa7/7aHTCCyaPLY/69WJ80qGlOzDzGa7yfmdZBYjt6/iLANyxsd3ocmz3FuuqIL9J2H6wibZ8E4p/SBYRr3qfjXywJmEQ0H5w6k+EQF7j0dJE5WoI/+2PtXeB/ONnpkkhETp7uYXpw+1Hd+pOm1B2D2E/9zKGTa5JpIpkZ4ei9Ug81KLGQs+MzEDxchgLdQeKJ8/3Kv0PltJbcyEaBcNE7Uxo4FhSzUlAIojKSUOf341dmwk54SByCkNGaUvrJdeoTmO0F1N7nTk7wq+8Mzyzw/l9q8QpL+k6O0OipmZGyDQM0aEXt7vANe5G/Uttj39bhqG3kUFXBbxMeZkpo56YkX/G6MRau9112fVA==LXBrX3NlcGFyYXRvci0=nr1wra4w81w5RWIO\\\"\"}",
+    "user.token": "{\"c\":1774861651474,\"e\":253402300799000,\"v\":\"\\\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsIm9pZCI6MSwiZXhwIjoxNzc0OTE5MjUxfQ.wVaY_EGRT9xibvRbAxaUWhH1MoSCRRsXKe-qUC1Pdcc\\\"\"}"
+  }
+}

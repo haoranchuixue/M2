@@ -1,4 +1,4 @@
-
+## DataEase二开环境
 服务器信息
 ip: 8.218.89.44
 user: root
@@ -12,3 +12,14 @@ password: 3cqscbrOnly1
 
 管理员账号 admin 密码 DataEase@123456
 测试用户账号 mumu 密码 DataEase@123456
+
+
+
+## DataEase灰度环境
+服务地址：http://47.236.78.123:8100
+账号：admin
+密码：DataEase@123456 
+
+
+
+

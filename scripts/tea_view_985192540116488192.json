@@ -1,0 +1,943 @@
+{
+  "id": "985192540116488192",
+  "title": "明细表",
+  "sceneId": "985192741891870720",
+  "tableId": "985189053949415424",
+  "type": "bar-horizontal",
+  "render": "antv",
+  "resultCount": 8,
+  "resultMode": "custom",
+  "extStack": [],
+  "extBubble": [],
+  "extLabel": [],
+  "extTooltip": [],
+  "customAttr": {
+    "basicStyle": {
+      "alpha": 100,
+      "tableBorderColor": "#E6E7E4",
+      "tableScrollBarColor": "#00000024",
+      "tableColumnMode": "adapt",
+      "tableColumnWidth": 100,
+      "tablePageMode": "pull",
+      "tablePageSize": 20,
+      "gaugeStyle": "default",
+      "colorScheme": "default",
+      "colors": [
+        "#5BB2EF",
+        "#90EE90",
+        "#00CED1",
+        "#E2BD84",
+        "#7A90E0",
+        "#3BA272",
+        "#2BE7FF",
+        "#0A8ADA",
+        "#FFD700"
+      ],
+      "mapVendor": "amap",
+      "gradient": true,
+      "lineWidth": 2,
+      "lineSymbol": "circle",
+      "lineSymbolSize": 4,
+      "lineSmooth": true,
+      "barDefault": true,
+      "barWidth": 40,
+      "barGap": 0.4,
+      "lineType": "solid",
+      "scatterSymbol": "circle",
+      "scatterSymbolSize": 8,
+      "radarShape": "polygon",
+      "mapStyle": "normal",
+      "areaBorderColor": "#303133",
+      "suspension": true,
+      "areaBaseColor": "#FFFFFF",
+      "mapSymbolOpacity": 0.7,
+      "mapSymbolStrokeWidth": 2,
+      "mapSymbol": "circle",
+      "mapSymbolSize": 20,
+      "radius": 100,
+      "innerRadius": 60,
+      "tableFieldWidth": [],
+      "showZoom": true,
+      "zoomButtonColor": "#aaa",
+      "zoomBackground": "#fff",
+      "tableLayoutMode": "grid",
+      "calcTopN": false,
+      "topN": 5,
+      "topNLabel": "其他"
+    },
+    "misc": {
+      "pieInnerRadius": 0,
+      "pieOuterRadius": 80,
+      "radarShape": "polygon",
+      "radarSize": 80,
+      "gaugeMinType": "fix",
+      "gaugeMinField": {
+        "id": "",
+        "summary": ""
+      },
+      "gaugeMin": 0,
+      "gaugeMaxType": "fix",
+      "gaugeMaxField": {
+        "id": "",
+        "summary": ""
+      },
+      "gaugeMax": 100,
+      "gaugeStartAngle": 225,
+      "gaugeEndAngle": -45,
+      "nameFontSize": 18,
+      "valueFontSize": 18,
+      "nameValueSpace": 10,
+      "valueFontColor": "#5470c6",
+      "valueFontFamily": "Microsoft YaHei",
+      "valueFontIsBolder": false,
+      "valueFontIsItalic": false,
+      "valueLetterSpace": 0,
+      "valueFontShadow": false,
+      "showName": true,
+      "nameFontColor": "#000000",
+      "nameFontFamily": "Microsoft YaHei",
+      "nameFontIsBolder": false,
+      "nameFontIsItalic": false,
+      "nameLetterSpace": "0",
+      "nameFontShadow": false,
+      "treemapWidth": 80,
+      "treemapHeight": 80,
+      "liquidMax": 100,
+      "liquidMaxType": "fix",
+      "liquidMaxField": {
+        "id": "",
+        "summary": ""
+      },
+      "liquidSize": 80,
+      "liquidShape": "circle",
+      "hPosition": "center",
+      "vPosition": "center",
+      "mapPitch": 0,
+      "mapLineType": "arc",
+      "mapLineWidth": 1,
+      "mapLineAnimateDuration": 3,
+      "mapLineGradient": false,
+      "mapLineSourceColor": "#146C94",
+      "mapLineTargetColor": "#576CBC",
+      "wordSizeRange": [
+        8,
+        32
+      ],
+      "wordSpacing": 6
+    },
+    "label": {
+      "show": true,
+      "position": "right",
+      "color": "#000000",
+      "fontSize": 10,
+      "formatter": "",
+      "labelLine": {
+        "show": true
+      },
+      "labelFormatter": {
+        "type": "auto",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      },
+      "reserveDecimalCount": 2,
+      "labelShadow": false,
+      "labelBgColor": "",
+      "labelShadowColor": "",
+      "quotaLabelFormatter": {
+        "type": "auto",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      },
+      "showDimension": true,
+      "showQuota": false,
+      "showProportion": true,
+      "seriesLabelFormatter": [
+        {
+          "id": "-1",
+          "datasourceId": null,
+          "datasetTableId": null,
+          "datasetGroupId": "1721458700028276736",
+          "chartId": null,
+          "originName": "*",
+          "name": "记录数*",
+          "dbFieldName": null,
+          "description": null,
+          "dataeaseName": "*",
+          "groupType": "q",
+          "type": "INT",
+          "precision": null,
+          "scale": null,
+          "deType": 2,
+          "deExtractType": null,
+          "extField": 1,
+          "checked": true,
+          "columnIndex": 999,
+          "lastSyncTime": null,
+          "dateFormat": null,
+          "dateFormatType": null,
+          "fieldShortName": null,
+          "summary": "count",
+          "sort": "desc",
+          "dateStyle": "y_M_d",
+          "datePattern": "date_sub",
+          "chartType": "bar",
+          "compareCalc": {
+            "type": "none",
+            "resultData": "percent",
+            "field": null,
+            "custom": null
+          },
+          "logic": null,
+          "filterType": null,
+          "index": 0,
+          "formatterCfg": {
+            "type": "auto",
+            "unit": 1,
+            "suffix": "",
+            "decimalCount": 2,
+            "thousandSeparator": true
+          },
+          "chartShowName": null,
+          "filter": [],
+          "customSort": [],
+          "busiType": null,
+          "show": true,
+          "color": "#909399",
+          "fontSize": 10
+        }
+      ]
+    },
+    "tooltip": {
+      "show": true,
+      "trigger": "item",
+      "confine": true,
+      "fontSize": 12,
+      "color": "#000000",
+      "tooltipFormatter": {
+        "type": "auto",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      },
+      "backgroundColor": "#FFFFFF",
+      "seriesTooltipFormatter": [
+        {
+          "id": "1699260979025",
+          "datasourceId": "1721451396490915840",
+          "datasetTableId": "7127224207510867968",
+          "datasetGroupId": "1721458700028276736",
+          "chartId": null,
+          "originName": "销售数量",
+          "name": "销售数量",
+          "dbFieldName": null,
+          "description": null,
+          "dataeaseName": "f_59fcc2c2b0f47cde",
+          "groupType": "q",
+          "type": "BIGINT",
+          "precision": null,
+          "scale": null,
+          "deType": 2,
+          "deExtractType": 2,
+          "extField": 0,
+          "checked": true,
+          "columnIndex": null,
+          "lastSyncTime": null,
+          "dateFormat": null,
+          "dateFormatType": null,
+          "fieldShortName": "f_59fcc2c2b0f47cde",
+          "summary": "sum",
+          "sort": "none",
+          "dateStyle": "y_M_d",
+          "datePattern": "date_sub",
+          "chartType": "bar",
+          "compareCalc": {
+            "type": "none",
+            "resultData": "percent",
+            "field": null,
+            "custom": null
+          },
+          "logic": null,
+          "filterType": null,
+          "index": null,
+          "formatterCfg": {
+            "type": "auto",
+            "unit": 1,
+            "suffix": "",
+            "decimalCount": 2,
+            "thousandSeparator": true
+          },
+          "chartShowName": null,
+          "filter": [],
+          "customSort": null,
+          "busiType": null,
+          "seriesId": "1699260979025",
+          "show": false
+        },
+        {
+          "id": "1699260979026",
+          "datasourceId": "1721451396490915840",
+          "datasetTableId": "7127224207510867968",
+          "datasetGroupId": "1721458700028276736",
+          "chartId": null,
+          "originName": "单价",
+          "name": "单价",
+          "dbFieldName": null,
+          "description": null,
+          "dataeaseName": "f_878cf3320c82724f",
+          "groupType": "q",
+          "type": "BIGINT",
+          "precision": null,
+          "scale": null,
+          "deType": 2,
+          "deExtractType": 2,
+          "extField": 0,
+          "checked": true,
+          "columnIndex": null,
+          "lastSyncTime": null,
+          "dateFormat": null,
+          "dateFormatType": null,
+          "fieldShortName": "f_878cf3320c82724f",
+          "summary": "sum",
+          "sort": "none",
+          "dateStyle": "y_M_d",
+          "datePattern": "date_sub",
+          "chartType": "bar",
+          "compareCalc": {
+            "type": "none",
+            "resultData": "percent",
+            "field": null,
+            "custom": null
+          },
+          "logic": null,
+          "filterType": null,
+          "index": null,
+          "formatterCfg": {
+            "type": "auto",
+            "unit": 1,
+            "suffix": "",
+            "decimalCount": 2,
+            "thousandSeparator": true
+          },
+          "chartShowName": null,
+          "filter": [],
+          "customSort": null,
+          "busiType": null,
+          "seriesId": "1699260979026",
+          "show": false
+        },
+        {
+          "id": "1699260979027",
+          "datasourceId": "1721451396490915840",
+          "datasetTableId": "7127224207510867968",
+          "datasetGroupId": "1721458700028276736",
+          "chartId": null,
+          "originName": "销售金额",
+          "name": "销售金额",
+          "dbFieldName": null,
+          "description": null,
+          "dataeaseName": "f_79e36c367d29a4aa",
+          "groupType": "q",
+          "type": "BIGINT",
+          "precision": null,
+          "scale": null,
+          "deType": 2,
+          "deExtractType": 2,
+          "extField": 0,
+          "checked": true,
+          "columnIndex": null,
+          "lastSyncTime": null,
+          "dateFormat": null,
+          "dateFormatType": null,
+          "fieldShortName": "f_79e36c367d29a4aa",
+          "summary": "sum",
+          "sort": "none",
+          "dateStyle": "y_M_d",
+          "datePattern": "date_sub",
+          "chartType": "bar",
+          "compareCalc": {
+            "type": "none",
+            "resultData": "percent",
+            "field": null,
+            "custom": null
+          },
+          "logic": null,
+          "filterType": null,
+          "index": null,
+          "formatterCfg": {
+            "type": "auto",
+            "unit": 1,
+            "suffix": "",
+            "decimalCount": 2,
+            "thousandSeparator": true
+          },
+          "chartShowName": null,
+          "filter": [],
+          "customSort": null,
+          "busiType": null,
+          "seriesId": "1699260979027",
+          "show": false
+        },
+        {
+          "id": "-1",
+          "datasourceId": null,
+          "datasetTableId": null,
+          "datasetGroupId": "1721458700028276736",
+          "chartId": null,
+          "originName": "*",
+          "name": "记录数*",
+          "dbFieldName": null,
+          "description": null,
+          "dataeaseName": "*",
+          "groupType": "q",
+          "type": "INT",
+          "precision": null,
+          "scale": null,
+          "deType": 2,
+          "deExtractType": null,
+          "extField": 1,
+          "checked": true,
+          "columnIndex": 999,
+          "lastSyncTime": null,
+          "dateFormat": null,
+          "dateFormatType": null,
+          "fieldShortName": null,
+          "summary": "count",
+          "sort": "none",
+          "dateStyle": "y_M_d",
+          "datePattern": "date_sub",
+          "chartType": "bar",
+          "compareCalc": {
+            "type": "none",
+            "resultData": "percent",
+            "field": null,
+            "custom": null
+          },
+          "logic": null,
+          "filterType": null,
+          "index": null,
+          "formatterCfg": {
+            "type": "auto",
+            "unit": 1,
+            "suffix": "",
+            "decimalCount": 2,
+            "thousandSeparator": true
+          },
+          "chartShowName": null,
+          "filter": [],
+          "customSort": null,
+          "busiType": null,
+          "seriesId": "-1",
+          "show": false
+        }
+      ]
+    },
+    "tableTotal": {
+      "row": {
+        "showGrandTotals": true,
+        "showSubTotals": true,
+        "reverseLayout": false,
+        "reverseSubLayout": false,
+        "label": "总计",
+        "subLabel": "小计",
+        "subTotalsDimensions": [],
+        "calcTotals": {
+          "aggregation": "SUM",
+          "cfg": []
+        },
+        "calcSubTotals": {
+          "aggregation": "SUM",
+          "cfg": []
+        },
+        "totalSort": "none",
+        "totalSortField": ""
+      },
+      "col": {
+        "showGrandTotals": true,
+        "showSubTotals": true,
+        "reverseLayout": false,
+        "reverseSubLayout": false,
+        "label": "总计",
+        "subLabel": "小计",
+        "subTotalsDimensions": [],
+        "calcTotals": {
+          "aggregation": "SUM",
+          "cfg": []
+        },
+        "calcSubTotals": {
+          "aggregation": "SUM",
+          "cfg": []
+        },
+        "totalSort": "none",
+        "totalSortField": ""
+      }
+    },
+    "tableHeader": {
+      "indexLabel": "排名",
+      "showIndex": true,
+      "tableHeaderAlign": "left",
+      "tableHeaderBgColor": "#1E90FF",
+      "tableHeaderFontColor": "#000000",
+      "tableTitleFontSize": 12,
+      "tableTitleHeight": 36,
+      "tableHeaderSort": false,
+      "showColTooltip": false,
+      "showRowTooltip": false
+    },
+    "tableCell": {
+      "tableFontColor": "#000000",
+      "tableItemAlign": "right",
+      "tableItemBgColor": "#FFFFFF",
+      "tableItemFontSize": 12,
+      "tableItemHeight": 36,
+      "enableTableCrossBG": false,
+      "tableItemSubBgColor": "#EEEEEE",
+      "showTooltip": false
+    },
+    "map": {
+      "id": "",
+      "level": "world"
+    },
+    "modifyName": "gradient",
+    "indicator": {
+      "show": true,
+      "fontSize": 20,
+      "color": "#5470C6ff",
+      "hPosition": "center",
+      "vPosition": "center",
+      "isItalic": false,
+      "isBolder": true,
+      "fontFamily": "Microsoft YaHei",
+      "letterSpace": 0,
+      "fontShadow": false,
+      "suffixEnable": true,
+      "suffix": "",
+      "suffixFontSize": 14,
+      "suffixColor": "#5470C6ff",
+      "suffixIsItalic": false,
+      "suffixIsBolder": true,
+      "suffixFontFamily": "Microsoft YaHei",
+      "suffixLetterSpace": 0,
+      "suffixFontShadow": false
+    },
+    "indicatorName": {
+      "show": true,
+      "fontSize": 18,
+      "color": "#ffffffff",
+      "isItalic": false,
+      "isBolder": true,
+      "fontFamily": "Microsoft YaHei",
+      "letterSpace": 0,
+      "fontShadow": false,
+      "nameValueSpacing": 0
+    }
+  },
+  "customAttrMobile": null,
+  "customStyle": {
+    "text": {
+      "show": false,
+      "fontSize": "18",
+      "hPosition": "left",
+      "vPosition": "top",
+      "isItalic": false,
+      "isBolder": true,
+      "remarkShow": false,
+      "remark": "",
+      "fontFamily": "Microsoft YaHei",
+      "letterSpace": "0",
+      "fontShadow": false,
+      "color": "#3D3D3D",
+      "remarkBackgroundColor": "#ffffff"
+    },
+    "legend": {
+      "show": false,
+      "hPosition": "center",
+      "vPosition": "bottom",
+      "orient": "horizontal",
+      "icon": "circle",
+      "color": "#000000",
+      "fontSize": 12
+    },
+    "xAxis": {
+      "show": true,
+      "position": "bottom",
+      "name": "",
+      "color": "#000000",
+      "fontSize": 12,
+      "axisLabel": {
+        "show": false,
+        "color": "#000000",
+        "fontSize": 12,
+        "rotate": 0,
+        "formatter": "{value}"
+      },
+      "axisLine": {
+        "show": true,
+        "lineStyle": {
+          "color": "#cccccc",
+          "width": 1,
+          "style": "solid"
+        }
+      },
+      "splitLine": {
+        "show": false,
+        "lineStyle": {
+          "color": "#CCCCCC",
+          "width": 1,
+          "style": "solid"
+        }
+      },
+      "axisValue": {
+        "auto": true,
+        "min": 10,
+        "max": 100,
+        "split": 10,
+        "splitCount": 10
+      },
+      "axisLabelFormatter": {
+        "type": "auto",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      }
+    },
+    "yAxis": {
+      "show": true,
+      "position": "left",
+      "name": "",
+      "color": "#000000",
+      "fontSize": 12,
+      "axisLabel": {
+        "show": true,
+        "color": "#000000",
+        "fontSize": 12,
+        "rotate": 0,
+        "formatter": "{value}"
+      },
+      "axisLine": {
+        "show": false,
+        "lineStyle": {
+          "color": "#cccccc",
+          "width": 1,
+          "style": "solid"
+        }
+      },
+      "splitLine": {
+        "show": false,
+        "lineStyle": {
+          "color": "#CCCCCC",
+          "width": 1,
+          "style": "solid"
+        }
+      },
+      "axisValue": {
+        "auto": true,
+        "min": 10,
+        "max": 100,
+        "split": 10,
+        "splitCount": 10
+      },
+      "axisLabelFormatter": {
+        "type": "auto",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      }
+    },
+    "yAxisExt": {
+      "show": true,
+      "position": "right",
+      "name": "",
+      "color": "#000000",
+      "fontSize": 12,
+      "axisLabel": {
+        "show": true,
+        "color": "#000000",
+        "fontSize": 12,
+        "rotate": 0,
+        "formatter": "{value}"
+      },
+      "axisLine": {
+        "show": false,
+        "lineStyle": {
+          "color": "#cccccc",
+          "width": 1,
+          "style": "solid"
+        }
+      },
+      "splitLine": {
+        "show": true,
+        "lineStyle": {
+          "color": "#CCCCCC",
+          "width": 1,
+          "style": "solid"
+        }
+      },
+      "axisValue": {
+        "auto": true,
+        "min": null,
+        "max": null,
+        "split": null,
+        "splitCount": null
+      },
+      "axisLabelFormatter": {
+        "type": "auto",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      }
+    },
+    "misc": {
+      "showName": false,
+      "color": "#000000",
+      "fontSize": 12,
+      "axisColor": "#999",
+      "splitNumber": 5,
+      "axisLine": {
+        "show": true,
+        "lineStyle": {
+          "color": "#CCCCCC",
+          "width": 1,
+          "type": "solid"
+        }
+      },
+      "axisTick": {
+        "show": false,
+        "length": 5,
+        "lineStyle": {
+          "color": "#000000",
+          "width": 1,
+          "type": "solid"
+        }
+      },
+      "axisLabel": {
+        "show": false,
+        "rotate": 0,
+        "margin": 8,
+        "color": "#000000",
+        "fontSize": "12",
+        "formatter": "{value}"
+      },
+      "splitLine": {
+        "show": true,
+        "lineStyle": {
+          "color": "#CCCCCC",
+          "width": 1,
+          "type": "solid"
+        }
+      },
+      "splitArea": {
+        "show": true
+      }
+    }
+  },
+  "customStyleMobile": null,
+  "customFilter": {
+    "logic": null,
+    "items": null
+  },
+  "drillFields": [],
+  "senior": {
+    "functionCfg": {
+      "sliderShow": false,
+      "sliderRange": [
+        0,
+        10
+      ],
+      "sliderBg": "#FFFFFF",
+      "sliderFillBg": "#BCD6F1",
+      "sliderTextColor": "#999999",
+      "emptyDataStrategy": "ignoreData",
+      "emptyDataFieldCtrl": []
+    },
+    "assistLineCfg": {
+      "enable": false,
+      "assistLine": []
+    },
+    "threshold": {
+      "enable": false,
+      "gaugeThreshold": "",
+      "labelThreshold": [],
+      "tableThreshold": [],
+      "textLabelThreshold": []
+    },
+    "scrollCfg": {
+      "open": false,
+      "row": 1,
+      "interval": 2000,
+      "step": 50
+    },
+    "areaMapping": {}
+  },
+  "createBy": null,
+  "createTime": null,
+  "updateTime": null,
+  "snapshot": null,
+  "stylePriority": "panel",
+  "chartType": "private",
+  "isPlugin": null,
+  "dataFrom": "calc",
+  "viewFields": [],
+  "refreshViewEnable": false,
+  "refreshUnit": "minute",
+  "refreshTime": 5,
+  "linkageActive": false,
+  "jumpActive": false,
+  "aggregate": null,
+  "flowMapStartName": [],
+  "flowMapEndName": [],
+  "calParams": [],
+  "extColor": [],
+  "sortPriority": [],
+  "data": null,
+  "privileges": null,
+  "isLeaf": null,
+  "pid": null,
+  "sql": null,
+  "drill": false,
+  "drillFilters": null,
+  "position": null,
+  "totalPage": 0,
+  "totalItems": 0,
+  "datasetMode": 0,
+  "datasourceType": null,
+  "chartExtRequest": null,
+  "isExcelExport": false,
+  "exportDatasetOriginData": false,
+  "cache": false,
+  "sourceTableId": null,
+  "downloadType": null,
+  "xAxis": [
+    {
+      "id": "1715072798364",
+      "datasourceId": "985188400292302848",
+      "datasetTableId": "7193537020143079424",
+      "datasetGroupId": "985189053949415424",
+      "chartId": null,
+      "originName": "菜品名称",
+      "name": "菜品名称",
+      "dbFieldName": null,
+      "description": null,
+      "dataeaseName": "f_7c7894e776e3b8ec",
+      "groupType": "d",
+      "type": "LONGTEXT",
+      "precision": null,
+      "scale": null,
+      "deType": 0,
+      "deExtractType": 0,
+      "extField": 0,
+      "checked": true,
+      "columnIndex": null,
+      "lastSyncTime": null,
+      "dateFormat": null,
+      "dateFormatType": null,
+      "fieldShortName": "f_7c7894e776e3b8ec",
+      "groupList": null,
+      "otherGroup": null,
+      "desensitized": null,
+      "orderChecked": null,
+      "params": null,
+      "summary": "count",
+      "sort": "none",
+      "dateStyle": "y_M_d",
+      "datePattern": "date_sub",
+      "dateShowFormat": null,
+      "chartType": "bar",
+      "compareCalc": {
+        "type": "none",
+        "resultData": "percent",
+        "field": null,
+        "custom": null
+      },
+      "logic": null,
+      "filterType": null,
+      "index": null,
+      "formatterCfg": {
+        "type": "auto",
+        "unitLanguage": "ch",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      },
+      "chartShowName": null,
+      "filter": [],
+      "customSort": null,
+      "busiType": null,
+      "hide": false,
+      "field": null,
+      "agg": false
+    }
+  ],
+  "xAxisExt": [],
+  "yAxis": [
+    {
+      "id": "-1",
+      "datasourceId": null,
+      "datasetTableId": null,
+      "datasetGroupId": "1721458700028276736",
+      "chartId": null,
+      "originName": "*",
+      "name": "记录数*",
+      "dbFieldName": null,
+      "description": null,
+      "dataeaseName": "*",
+      "groupType": "q",
+      "type": "INT",
+      "precision": null,
+      "scale": null,
+      "deType": 2,
+      "deExtractType": null,
+      "extField": 1,
+      "checked": true,
+      "columnIndex": 999,
+      "lastSyncTime": null,
+      "dateFormat": null,
+      "dateFormatType": null,
+      "fieldShortName": null,
+      "groupList": null,
+      "otherGroup": null,
+      "desensitized": null,
+      "orderChecked": null,
+      "params": null,
+      "summary": "count",
+      "sort": "desc",
+      "dateStyle": "y_M_d",
+      "datePattern": "date_sub",
+      "dateShowFormat": null,
+      "chartType": "bar",
+      "compareCalc": {
+        "type": "none",
+        "resultData": "percent",
+        "field": null,
+        "custom": null
+      },
+      "logic": null,
+      "filterType": null,
+      "index": 0,
+      "formatterCfg": {
+        "type": "auto",
+        "unitLanguage": "ch",
+        "unit": 1,
+        "suffix": "",
+        "decimalCount": 2,
+        "thousandSeparator": true
+      },
+      "chartShowName": null,
+      "filter": [],
+      "customSort": [],
+      "busiType": null,
+      "hide": false,
+      "field": null,
+      "agg": false
+    }
+  ],
+  "yAxisExt": []
+}

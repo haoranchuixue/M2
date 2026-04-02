@@ -1,0 +1,75 @@
+{
+  "animations": [],
+  "canvasId": "canvas-main",
+  "events": {},
+  "groupStyle": {},
+  "isLock": false,
+  "isShow": true,
+  "collapseName": [
+    "position",
+    "background",
+    "style",
+    "picture"
+  ],
+  "linkage": {
+    "duration": 0,
+    "data": [
+      {
+        "id": "",
+        "label": "",
+        "event": "",
+        "style": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "component": "UserView",
+  "name": "富文本",
+  "label": "富文本",
+  "propValue": {
+    "textValue": "<p style=\"text-align: center; line-height: 2;\"><span style=\"font-size: 32px; color: #303131;\"><strong>连锁茶饮销售看板</strong></span></p>"
+  },
+  "icon": "bar",
+  "innerType": "rich-text",
+  "editing": false,
+  "x": 1,
+  "y": 1,
+  "sizeX": 72,
+  "sizeY": 4,
+  "style": {
+    "rotate": 0,
+    "opacity": 1,
+    "width": 1220,
+    "height": 87.33333333333333,
+    "left": 0,
+    "top": 0
+  },
+  "matrixStyle": {},
+  "commonBackground": {
+    "backgroundColorSelect": false,
+    "backgroundImageEnable": true,
+    "backgroundType": "outerImage",
+    "innerImage": "board/board_1.svg",
+    "outerImage": "/static-resource/7127474921424293888.png",
+    "innerPadding": 12,
+    "borderRadius": 11,
+    "backgroundColor": "rgba(255, 255, 255, 1)",
+    "innerImageColor": "rgba(16, 148, 229,1)"
+  },
+  "state": "ready",
+  "render": "custom",
+  "id": "985192540154236928",
+  "_dragId": 0,
+  "show": true,
+  "linkageFilters": [],
+  "canvasActive": false,
+  "maintainRadio": false,
+  "aspectRatio": 1,
+  "actionSelection": {
+    "linkageActive": "custom"
+  }
+}

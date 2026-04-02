@@ -1,0 +1,70 @@
+{
+  "animations": [],
+  "canvasId": "canvas-main",
+  "events": {},
+  "groupStyle": {},
+  "isLock": false,
+  "isShow": true,
+  "collapseName": [
+    "position",
+    "background",
+    "style"
+  ],
+  "linkage": {
+    "duration": 0
+  },
+  "component": "UserView",
+  "name": "DSP Report Table",
+  "label": "DSP Report",
+  "propValue": {
+    "innerType": "table-normal"
+  },
+  "icon": "bar",
+  "innerType": "table-normal",
+  "editing": false,
+  "x": 1,
+  "y": 1,
+  "sizeX": 72,
+  "sizeY": 28,
+  "style": {
+    "rotate": 0,
+    "opacity": 1,
+    "width": 1880,
+    "height": 700,
+    "left": 10,
+    "top": 10
+  },
+  "matrixStyle": {},
+  "commonBackground": {
+    "backgroundColorSelect": true,
+    "backgroundImageEnable": false,
+    "backgroundType": "color",
+    "innerImage": "",
+    "outerImage": "",
+    "innerPadding": 0,
+    "borderRadius": 5,
+    "backgroundColor": "rgba(255, 255, 255, 1)"
+  },
+  "state": "ready",
+  "render": "custom",
+  "id": "1774872554171",
+  "_dragId": 0,
+  "show": true,
+  "mobileSelected": false,
+  "mobileStyle": {
+    "style": {
+      "width": 375,
+      "height": 200,
+      "left": 0,
+      "top": 0
+    }
+  },
+  "sourceViewId": null,
+  "linkageFilters": [],
+  "canvasActive": false,
+  "maintainRadio": false,
+  "aspectRatio": 1,
+  "actionSelection": {
+    "linkageActive": "custom"
+  }
+}
